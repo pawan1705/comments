@@ -1,0 +1,27 @@
+nav{
+    width: 100%;
+    /* background: #333; */
+    color:antiquewhite;
+    padding: 4px 0px;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.logo{
+    width: 180ox;
+    height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px 20px;
+    font-size: 16px;
+}
+.dark-nav{
+    background: rgba(37, 11, 5, 0.7);
+    transition: 0.5s;
+}
