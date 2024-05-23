@@ -9,7 +9,6 @@ const About = () => {
         <img src={assets.play_icon} alt="" className='play-icon' />
       </div>
       <div className="about-right">
-        <h3>ABOUT INSTITUTE</h3>
         <h2>Who We Are ?</h2>
         <p>PK has been providing Spoken English & Personality Development training since 2000. With 20+ years of experience, it has helped thousands of students globally, including professionals, teachers, doctors, and businessmen. The institute uses modern technology for effective training, such as audio-visual labs, software, and live online sessions</p>
         <p>We offer training programs in Spoken English, Personality Development, Interview Preparation, Public Speaking, Motivational Training, Confidence and Corporate Training, as well as Teacher's Training.</p>

@@ -9,12 +9,12 @@ import gallery_2 from './g2.jpeg'
 import gallery_3 from './gal3.png'
 import gallery_4 from './gal4.png'
 import hero from './hero.png'
-import location_icon from './location-icon.png'
-import mail_icon from './mail-icon.png'
+import location_icon from './location.png'
+import mail_icon from './email.png'
 import menu_icon from './menu-icon.png'
-import msg_icon from './msg-icon.png'
+import msg_icon from './msg.png'
 import next_icon from './next-icon.png'
-import phone_icon from './phone-icon.png'
+import phone_icon from './phone.png'
 import play_icon from './play-icon.png'
 import program_1 from './online_class.png'
 import program_2 from './lib2.png'
@@ -27,10 +27,18 @@ import user_2 from './user-2.png';
 import user_3 from './user-3.png';
 import user_4 from './user-4.png';
 import white_arrow from './white-arrow.png'
-// import about from './about.png'
+import whatsapp from './whts.png'
+import rahul from './rahul.png'
+import modi from './modi.png'
+import kejri from './kejri.png'
+import maya from './maya.jpg'
 
 export const assets = {
     logo,
+    rahul,
+    modi,
+    kejri,
+    maya,
     about,
     about1,
     about2,
@@ -58,6 +66,7 @@ export const assets = {
     user_2,
     user_3,
     user_4,
-    white_arrow
+    white_arrow,
+    whatsapp
 
 }

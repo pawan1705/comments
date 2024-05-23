@@ -1,14 +1,17 @@
 .title{
     text-align: center;
-    color:#212EA0;
+    background: rgba(55, 16, 8, 0.7);
+    color:rgb(166, 173, 229);
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
-    margin: 70px 0 30px;
+    margin: 30px  30px;
+    border-radius: 5px;
+    padding: 4px 0px;
 }
-..title h2{
+.title h2{
     font-size: 32px;
-    color:#000F38;
+    color:antiquewhite;
     margin-top: 5px ;
     text-transform: none;
 }

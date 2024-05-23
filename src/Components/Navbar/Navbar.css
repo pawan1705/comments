@@ -25,3 +25,44 @@ nav ul li{
     background: rgba(37, 11, 5, 0.7);
     transition: 0.5s;
 }
+/* media queries */
+@media (max-width:1050px){
+    .logo{
+        width: 100px;
+    }
+    nav ul li{
+        margin: 10px 8px;
+    }
+}
+.menu-icon{
+    display: none;
+}
+
+@media (max-width:855px){
+    nav{
+        padding: 15px 0;
+    }
+    nav ul{
+        position: fixed;
+        top:0;
+        right: 0;
+        bottom: 0;
+        background:rgba(37, 11, 5, 0.7) ;
+        z-index: -1;
+        width: 180px;
+        padding-top: 70px ;
+        transition: 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px 40px;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        width: 30px;
+    }
+    .hide-mobile-menu{
+        right:-180px;
+    }
+}
