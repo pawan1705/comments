@@ -34,9 +34,9 @@ const Contact = () => {
         </h3>
         <p>Contact Us for more details of new batches , fees  and schemes.</p>
         <ul>
-          <li><img src={assets.mail_icon} alt="" />pawan.sangare05@gmail.com</li>
-          <li><img src={assets.phone_icon} alt="" />+91 9009240816</li>
-          <li><img src={assets.location_icon} alt="" />@ Floor Housing Board Building ,Jagjivan Ram Nagar , Near Patnipura Indore</li>
+          <li><a href="mailto:pawan.sangare05@gmail.com"><img src={assets.mail_icon} alt="" /> pk.english@gmail.com</a></li>
+          <li><a href='tel:+919009240816'><img src={assets.phone_icon} alt="" />+91 9009240816</a></li>
+          <li><a href='https://www.google.com/maps/search/?api=1&query=2 Floor Housing Board Building ,Jagjivan Ram Nagar , Near Patnipura Indore'><img src={assets.location_icon} alt="" />2 Floor Housing Board Building ,Jagjivan Ram Nagar , Near Patnipura Indore</a></li>
         </ul>
       </div>
       <div className="contact-col">

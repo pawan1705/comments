@@ -32,9 +32,11 @@ import rahul from './rahul.png'
 import modi from './modi.png'
 import kejri from './kejri.png'
 import maya from './maya.jpg'
+import libVid from './libVid.mp4'
 
 export const assets = {
     logo,
+    libVid,
     rahul,
     modi,
     kejri,
