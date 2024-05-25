@@ -5,7 +5,6 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
 
   const[sticky,setSticky]=useState(false);
-
   useEffect(()=>{
     window.addEventListener('scroll',()=>{
       window.scrollY >100 ?setSticky(true):setSticky(false);
@@ -26,7 +25,7 @@ const Navbar = () => {
         <li><Link to='testimonials' smooth={true} offset={-250} duration={500}>Testimonials</Link></li>
         <li><Link  to='contact' smooth={true} offset={-250} duration={500} className='btn'> Contact Us</Link> </li>
 
-        <li><a href='https://wa.me/9009240816'><button className=' btn wts'><img src={assets.whatsapp} alt="" /> Whatsapp Now</button></a> </li>
+        <li><a href='https://wa.me/+919009240816'><button className=' btn wts'><img src={assets.whatsapp} alt="" /> Whatsapp Now</button></a> </li>
       </ul>
       <img src={assets.menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>

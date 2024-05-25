@@ -6,14 +6,14 @@ const Testimonials = () => {
   let tx=0;
   const slideForword = () => {
     if(tx> -50){
-      tx -=25;
+      tx -=12.5;
     }
     slider.current.style.transform=`translateX(${tx}%)`;
   };
 
   const slideBackword = () => {
     if(tx< 0){
-      tx +=25;
+      tx +=12.5;
     }
     slider.current.style.transform=`translateX(${tx}%)`;
   };
@@ -40,8 +40,8 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={assets.rahul} alt="" />
                 <div>
-                  <h3>Rahul Gandhi</h3>
-                  <span>Delhi ,India</span>
+                  <h3>Rahul Soni</h3>
+                  <span>Indore ,India</span>
                 </div>
               </div>
               <p>
@@ -54,8 +54,8 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={assets.modi} alt="" />
                 <div>
-                  <h3>Narendra Modi</h3>
-                  <span>Delhi ,India</span>
+                  <h3>Narendra Meena</h3>
+                  <span>Indore ,India</span>
                 </div>
               </div>
               <p>
@@ -68,12 +68,12 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={assets.kejri} alt="" />
                 <div>
-                  <h3>Arvindra Kejriwal</h3>
-                  <span>Delhi ,India</span>
+                  <h3>Arvindra Kaushal</h3>
+                  <span>Indore ,India</span>
                 </div>
               </div>
               <p>
-              The organization “BODHISUTRA,’ is a great route to improvement and speaking English.. And as much as appreciation to be given is less with respect to this portal.. And I want to be associated with this organisation for a long
+              The organization  is a great route to improvement and speaking English.. And as much as appreciation to be given is less with respect to this portal.. And I want to be associated with this organisation for a long.
               </p>
             </div>
           </li>
@@ -82,8 +82,8 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={assets.maya} alt="" />
                 <div>
-                  <h3>Mayawati</h3>
-                  <span>Uttar Pradesh ,India</span>
+                  <h3>Maya Patidar</h3>
+                  <span>Indore ,India</span>
                 </div>
               </div>
               <p>
@@ -91,6 +91,63 @@ const Testimonials = () => {
               </p>
             </div>
           </li>
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={assets.maya} alt="" />
+                <div>
+                  <h3>Maya Patidar</h3>
+                  <span>Indore ,India</span>
+                </div>
+              </div>
+              <p>
+              Program is very good.. I found a lot of changes in my speaking. I\’m very much confident now, their teachings are really very good. My trainer really good and polite she is giving me a good training. She taught me so many skills everyday..
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={assets.maya} alt="" />
+                <div>
+                  <h3>Maya Patidar</h3>
+                  <span>Indore ,India</span>
+                </div>
+              </div>
+              <p>
+              Program is very good.. I found a lot of changes in my speaking. I\’m very much confident now, their teachings are really very good. My trainer really good and polite she is giving me a good training. She taught me so many skills everyday..
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={assets.maya} alt="" />
+                <div>
+                  <h3>Maya Patidar</h3>
+                  <span>Indore ,India</span>
+                </div>
+              </div>
+              <p>
+              Program is very good.. I found a lot of changes in my speaking. I\’m very much confident now, their teachings are really very good. My trainer really good and polite she is giving me a good training. She taught me so many skills everyday..
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={assets.maya} alt="" />
+                <div>
+                  <h3>Maya Patidar</h3>
+                  <span>Indore ,India</span>
+                </div>
+              </div>
+              <p>
+              Program is very good.. I found a lot of changes in my speaking. I\’m very much confident now, their teachings are really very good. My trainer really good and polite she is giving me a good training. She taught me so many skills everyday..
+              </p>
+            </div>
+          </li>
+          
         </ul>
       </div>
     </div>

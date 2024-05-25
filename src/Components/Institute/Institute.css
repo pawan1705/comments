@@ -1,5 +1,5 @@
 .institute{
-    margin: 80px auto;
+    margin: 60px auto;
     width: 90%;
     text-align: center;
 }
@@ -16,7 +16,7 @@
     border-radius: 10px;
 }
 
-/*................media queries...................  */
+/* ................media queries...................  */
 @media (max-width: 800px){
     .gallery{
         flex-wrap: wrap;
@@ -24,5 +24,5 @@
     .gallery img{
         width: 48%;
         margin-bottom: 25px;
-    }
+    } 
 }

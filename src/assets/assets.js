@@ -1,5 +1,4 @@
 import logo from './logo.png'
-import about from './about.png'
 import about1 from './about1.png'
 import about2 from './about2.png'
 import back_icon from './back-icon.png'
@@ -16,16 +15,12 @@ import msg_icon from './msg.png'
 import next_icon from './next-icon.png'
 import phone_icon from './phone.png'
 import play_icon from './play-icon.png'
-import program_1 from './online_class.png'
+import program_1 from './g1.jpeg'
 import program_2 from './lib2.png'
 import program_3 from './lib3.png'
 import program_icon_1 from './program-icon-1.png';
 import program_icon_2 from './spk.png';
 import program_icon_3 from './online1.png';
-import user_1 from './user-1.png';
-import user_2 from './user-2.png';
-import user_3 from './user-3.png';
-import user_4 from './user-4.png';
 import white_arrow from './white-arrow.png'
 import whatsapp from './whts.png'
 import rahul from './rahul.png'
@@ -33,15 +28,36 @@ import modi from './modi.png'
 import kejri from './kejri.png'
 import maya from './maya.jpg'
 import libVid from './libVid.mp4'
+import youtube from './youtube.png'
+import insta from './insta2.png'
+import fb from './fb.png'
+import x from './x.png'
+import pd from './pd.png'
+import pd_icon from './pd_icon.png'
+import gd from './gd.png'
+import gd_icon from './gd_icon.png'
+import np from './np.png'
+import cc from './cc.png'
+import cc_icon from './cc_icon.png'
 
 export const assets = {
+    x,
+    cc,
+    cc_icon,
+    np,
+    pd,
+    pd_icon,
+    gd,
+    gd_icon,
+    fb,
+    insta,
+    youtube,
     logo,
     libVid,
     rahul,
     modi,
     kejri,
     maya,
-    about,
     about1,
     about2,
     back_icon,
@@ -64,10 +80,6 @@ export const assets = {
     program_icon_1,
     program_icon_2,
     program_icon_3,
-    user_1,
-    user_2,
-    user_3,
-    user_4,
     white_arrow,
     whatsapp
 

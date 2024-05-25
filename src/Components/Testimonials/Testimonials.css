@@ -26,10 +26,9 @@
 }
 .slider ul{
     display: flex;
-    width: 200%;
-    /* height: 200px; */
+    width: 400%;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .slider ul li{
