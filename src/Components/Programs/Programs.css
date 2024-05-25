@@ -34,6 +34,7 @@
 }
 .caption img{
     width: 60px;
+    height: 50px;
     margin-bottom: 10px;
 }
 
@@ -57,83 +58,78 @@
     right: auto;
     left:0;
 }
-.slider{
+.sliderP{
     overflow: hidden;
 
 }
-.slider ul{
+.sliderP ul{
     display: flex;
     width: 400%;
     overflow-x: hidden;
     transition: 1s;
 }
 
-.slider ul li{
+.sliderP ul li{
     list-style: none;
     width: 50%;
     padding: 20px;
 }
 
-.slide{
-    box-shadow:  0 0 20px rgba(0,0,0,0.5);
-    padding: 40px;
-    border-radius: 10px;
-    color:#676767;
-    line-height: 1.4;
-}
-.slide img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-    border: 4px solid rgba(37, 11, 5, 0.7);
-}
-.user-info{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    font-size: 15px;
 
-}
-.user-info h3{
-    color:#212121;
-}
 
 /*................media queries...................  */
-@media (max-width: 800px){
-    .programs{
-        padding: 0 40px;
+
+@media (max-width:475px){
+    .program img{
+        width: 100px;
+        height: 100px;
     }
-    .next-btn , .back-btn{
-        padding: 10px;
-        width: 35px;
+    .caption img{
+        width: 40px;
+        height: 35px;
+        margin-bottom: 10px;
     }
-    .testimonials ul li{
-        padding: 10px;
-    }
-    .slide{
-        padding: 10px;
-    }
-    .slide img{
-        width: 50px;
-        border:3px solid rgba(37, 11, 5, 0.7)
+    .caption{
+        padding-top: 50%;
     }
 }
 
-@media (max-width: 600px){
-    .user-info{
-        display: block;
+@media (max-width:430px){
+    .program img{
+        width: 70px;
+        height: 70px;
+    }
+    .caption img{
+        width: 30px;
+        height: 25px;
         margin-bottom: 10px;
+    }
+    .caption{
+        padding-top: 50%;
+    }
+    .caption p{
         font-size: 12px;
     }
-    .user-info h3{
-        font-size: 16px;
+}
+
+@media (max-width:376px){
+    .program img{
+        width: 50px;
+        height: 50px;
     }
-    .slider p{
-        font-size: 12px;
+    .caption img{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 5px;
     }
-    .program{
-        flex-basis: 100%;
-        margin: 20px;
+    .caption{
+        padding-top: 50%;
+    }
+    .caption p{
+        font-size: 10px;
+    }
+    .programs{
+        margin: 20px auto;
+    
     }
 }

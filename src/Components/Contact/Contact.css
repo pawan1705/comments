@@ -69,3 +69,7 @@
     }
 
 }
+@media (max-width: 400px){
+    .contact{
+        margin: 40px auto;}
+    }

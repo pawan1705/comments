@@ -39,7 +39,7 @@ const Programs = () => {
         className="back-btn"
         onClick={slideBackword}
       />
-      <div className="slider">
+      <div className="sliderP">
         <ul ref={slider}>
           <li>
           <div className="program">
